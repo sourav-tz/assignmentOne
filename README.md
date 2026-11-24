@@ -206,10 +206,10 @@ To execute `sysinfo.sh` automatically every hour (at minute `0`), open the cront
 crontab -e
 ```
 
-Add the following entry (replace `/absolute/path/to/assignment-1` with your actual directory path):
+Add the following entry (replace `/absolute/path/to/assignmentOne` with your actual directory path):
 
 ```cron
-0 * * * * /absolute/path/to/assignment-1/sysinfo.sh >/dev/null 2>&1
+0 * * * * /absolute/path/to/assignmentOne/sysinfo.sh >/dev/null 2>&1
 ```
 
 Because `sysinfo.sh` writes its own dated file (`sysinfo_YYYY-MM-DD.log`), redirecting cron stdout/stderr avoids unnecessary cron mail while preserving the daily report file.
@@ -218,5 +218,5 @@ Because `sysinfo.sh` writes its own dated file (`sysinfo_YYYY-MM-DD.log`), redir
 
 ## 9. GitHub Repository Information
 
-- **Repository URL:** `https://github.com/<your-username>/assignment-1` *(placeholder — update after creating the public GitHub repository)*
+- **Repository URL:** `https://github.com/sourav-tz/assignmentOne` *(placeholder — update after creating the public GitHub repository)*
 - **Default Branch:** `main`
