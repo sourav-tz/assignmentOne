@@ -218,5 +218,5 @@ Because `sysinfo.sh` writes its own dated file (`sysinfo_YYYY-MM-DD.log`), redir
 
 ## 9. GitHub Repository Information
 
-- **Repository URL:** `https://github.com/sourav-tz/assignmentOne` *(placeholder — update after creating the public GitHub repository)*
+- **Repository URL:** `https://github.com/sourav-tz/assignmentOne`
 - **Default Branch:** `main`
