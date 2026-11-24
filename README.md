@@ -18,7 +18,7 @@ A professional Linux shell scripting project containing two Bash automation util
 ## 2. Project Directory Structure
 
 ```text
-assignment-1/
+assignmentOne/
 ├── .gitignore
 ├── sysinfo.sh
 ├── log_report.sh
@@ -43,7 +43,7 @@ assignment-1/
 
 1. Navigate to the project directory:
    ```bash
-   cd assignment-1
+   cd assignmentOne
    ```
 2. Ensure the script has executable permissions:
    ```bash
